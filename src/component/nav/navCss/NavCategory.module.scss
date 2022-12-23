@@ -1,0 +1,12 @@
+.navCategory {
+	float: left;
+	margin-left: 35px;
+
+	.categoryList {
+		height: 90px;
+		line-height: 90px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+}
