@@ -1,12 +1,44 @@
-.navCategory {
-	float: left;
-	margin-left: 35px;
+.navCategoryContain {
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex: 1fr;
 
-	.categoryList {
-		height: 90px;
-		line-height: 90px;
+	.navCategoryUl {
 		display: flex;
 		justify-content: center;
 		align-items: center;
+		list-style: none;
+		padding-left: 0;
+
+		.categoryListBox {
+			height: 90px;
+			display: flex;
+			justify-content: space-around;
+			align-items: center;
+			// &:hover {
+			// 	border-bottom: 3px solid black;
+
+			// 	& ~ div {
+			// 		color: rgb(176, 176, 176);
+			// 	}
+			// }
+
+			.navCategoryLi {
+				padding-left: 10px;
+			}
+		}
+		.categoryListBoxHover {
+			height: 90px;
+			display: flex;
+			justify-content: space-around;
+			align-items: center;
+			border-bottom: 3px solid black;
+
+			.navCategoryLi {
+				padding-left: 10px;
+			}
+		}
 	}
 }

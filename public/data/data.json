@@ -2,31 +2,52 @@
 	{
 		"id": 1,
 		"title": "BEST",
-		"content": null,
-		"underContent": null
+		"content": [],
+		"underContent": [],
+		"url": []
 	},
 	{
 		"id": 2,
 		"title": "ALL ITEM",
 		"content": ["NEW", "BEST", "ALL"],
-		"underContent": ["아우터", "상의", "하의", "원피스", "ACC", "이너/언더웨어", "홈웨어/잠옷"]
+		"underContent": ["아우터", "상의", "하의", "원피스", "ACC", "이너/언더웨어", "홈웨어/잠옷"],
+		"url": [
+			"https://spao.com/web/product/medium/202212/f8cbf3c31263ce71df7190f55bad42d0.jpg",
+			"https://spao.com/web/product/medium/202212/f8cbf3c31263ce71df7190f55bad42d0.jpg",
+			"https://spao.com/web/product/medium/202212/f8cbf3c31263ce71df7190f55bad42d0.jpg"
+		]
 	},
 	{
 		"id": 3,
 		"title": "WOMEN",
 		"content": ["NEW", "BEST", "ALL"],
-		"underContent": ["아우터", "상의", "하의", "원피스", "ACC", "이너/언더웨어", "홈웨어/잠옷"]
+		"underContent": ["아우터", "상의", "하의", "원피스", "ACC", "이너/언더웨어", "홈웨어/잠옷"],
+		"url": [
+			"https://spao.com/web/product/medium/202212/f8cbf3c31263ce71df7190f55bad42d0.jpg",
+			"https://spao.com/web/product/medium/202212/f8cbf3c31263ce71df7190f55bad42d0.jpg",
+			"https://spao.com/web/product/medium/202212/f8cbf3c31263ce71df7190f55bad42d0.jpg"
+		]
 	},
 	{
 		"id": 4,
 		"title": "MEN",
 		"content": ["NEW", "BEST", "ALL"],
-		"underContent": ["아우터", "상의", "하의", "ACC", "이너/언더웨어", "홈웨어/잠옷"]
+		"underContent": ["아우터", "상의", "하의", "ACC", "이너/언더웨어", "홈웨어/잠옷"],
+		"url": [
+			"https://spao.com/web/product/medium/202212/f8cbf3c31263ce71df7190f55bad42d0.jpg",
+			"https://spao.com/web/product/medium/202212/f8cbf3c31263ce71df7190f55bad42d0.jpg",
+			"https://spao.com/web/product/medium/202212/f8cbf3c31263ce71df7190f55bad42d0.jpg"
+		]
 	},
 	{
 		"id": 5,
 		"title": "COLLABORATION",
 		"content": ["NEW", "BEST", "ALL"],
-		"underContent": ["잠옷", "상의", "잡화", "팬시/뷰티"]
+		"underContent": ["잠옷", "상의", "잡화", "팬시/뷰티"],
+		"url": [
+			"https://spao.com/web/product/medium/202212/f8cbf3c31263ce71df7190f55bad42d0.jpg",
+			"https://spao.com/web/product/medium/202212/f8cbf3c31263ce71df7190f55bad42d0.jpg",
+			"https://spao.com/web/product/medium/202212/f8cbf3c31263ce71df7190f55bad42d0.jpg"
+		]
 	}
 ]

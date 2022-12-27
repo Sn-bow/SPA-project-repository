@@ -1,13 +1,13 @@
-.contain {
+.navContain {
+	width: 100vw;
+	height: 90px;
 	position: fixed;
 
-	.navContain {
-		background-color: #fff;
-		border-bottom: 1px solid #e5e5e5;
-		transition: all 0.3s;
-
-		.width {
-			max-width: 1720px;
-		}
+	.navBox {
+		height: 100%;
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		border-bottom: 1px solid rgb(176, 176, 176);
 	}
 }

@@ -1,23 +1,46 @@
-import { categoryDataType } from '../../../publicData/navPropsData'
-import classes from '../navCss/NavCategoryList.module.scss'
+import { useState } from 'react';
+import { categoryDataType } from '../../../public/publiceData/navPropsData'
+import NavListContent from './NavListContent';
 
-// className={classes.categoryListItem}
-const NavCategoryList: React.FC<{ categoryList: categoryDataType[] }> = (props) => {
-    console.log(props.categoryList)
+const NavCategoryList: React.FC<{ categoryData: categoryDataType[], class: string, boxClass: string, classHover: string }> = (props) => {
+    const [categoryListState, setCategoryListState] = useState<number | null>(null)
+
+    const [classSelector, setClassSelctor] = useState<boolean>(false)
+
+    const pointerHandler = (id: number) => {
+        setCategoryListState(id)
+    }
+
+    const pointerLeavedHandler = () => {
+        setCategoryListState(null)
+    }
+
     return (
         <>
-            {props.categoryList.map(categoryData => {
-                return (
+            {props.categoryData.map(categoryList =>
+                <div key={categoryList.id} className={categoryList.id === categoryListState && classSelector ? props.classHover : props.boxClass}>
                     <li
-                        key={categoryData.id}
-                        className={classes.categoryListItem}
+                        onPointerEnter={() => { pointerHandler(categoryList.id); setClassSelctor(() => true) }}
+                        className={props.class}
                     >
-                        {categoryData.title}
+                        {categoryList.title}
                     </li>
-                )
-            }
-            )
-            }
+                    <li
+                        className={props.class}
+                    >
+                        {
+                            categoryList.id === categoryListState
+                            &&
+                            <NavListContent
+                                onPointerLeave={pointerLeavedHandler}
+                                id={categoryList.id}
+                                compareId={categoryListState}
+                                categoryList={categoryList}
+                            />
+                        }
+                    </li>
+                </div>
+            )}
         </>
     )
 }

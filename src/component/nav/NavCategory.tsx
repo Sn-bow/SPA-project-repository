@@ -1,15 +1,27 @@
-import NavCategoryList from './navCategoryList/NavCategoryList'
+import axios from 'axios';
+import { useEffect, useState } from 'react';
+import NavCategoryList from './navCategoryList/NavCategoryList';
 import classes from './navCss/NavCategory.module.scss'
-import { categoryDataType } from '../../publicData/navPropsData'
 
-const NavCategory: React.FC<{ navCategory: categoryDataType[] }> = (props) => {
+const NavCategory = () => {
+    const [categoryDataStorage, setCategoryDataStorage] = useState([])
+
+    const navData = async () => {
+        const categoryData = await axios.get('/data/data.json')
+        setCategoryDataStorage(categoryData.data)
+    }
+
+    useEffect(() => {
+        navData()
+    }, [])
+
     return (
-        <div className={classes.navCategory} >
-            <ul className={classes.categoryList} >
-                <NavCategoryList categoryList={props.navCategory} />
+        <div className={classes.navCategoryContain}>
+            <ul className={classes.navCategoryUl}>
+                <NavCategoryList categoryData={categoryDataStorage} class={classes.navCategoryLi} boxClass={classes.categoryListBox} classHover={classes.categoryListBoxHover} />
             </ul>
         </div>
     )
 }
 
-export default NavCategory
+export default NavCategory;
