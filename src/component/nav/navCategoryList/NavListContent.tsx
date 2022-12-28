@@ -13,7 +13,7 @@ const NavListContent: React.FC<navCategoryListPropsType> = (props) => {
     return (
         <div onPointerLeave={props.onPointerLeave} className={classes.navListContentContain}>
             <div className={classes.navListContentBox}>
-                <div className={classes.navListContentaBackDrop} onPointerEnter={props.onPointerLeave} />
+                {/* <div className={classes.navListContentaBackDrop} onPointerEnter={props.onPointerLeave} /> */}
                 <ul className={classes.navListContentUl}>
                     <div className={classes.navListContentDiv}>
                         {props.compareId === props.id && props.categoryList.content.map((content, index) =>

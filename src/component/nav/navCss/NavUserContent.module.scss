@@ -1,7 +1,21 @@
 .userContent {
-	.userContentItem {
-		font-size: 20px;
-		padding-right: 10px;
-		color: black;
+	height: 90px;
+
+	.userBox {
+		display: flex;
+		align-items: center;
+		height: 100%;
+
+		.userItemBox {
+			height: 100%;
+			display: flex;
+			align-items: center;
+
+			.userContentItem {
+				font-size: 20px;
+				padding-right: 10px;
+				color: black;
+			}
+		}
 	}
 }

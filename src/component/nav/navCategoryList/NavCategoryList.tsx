@@ -18,7 +18,11 @@ const NavCategoryList: React.FC<{ categoryData: categoryDataType[], class: strin
     return (
         <>
             {props.categoryData.map(categoryList =>
-                <div key={categoryList.id} className={categoryList.id === categoryListState && classSelector ? props.classHover : props.boxClass}>
+                <div
+                    key={categoryList.id}
+                    className={categoryList.id === categoryListState && classSelector ? props.classHover : props.boxClass}
+                    onPointerLeave={pointerLeavedHandler}
+                >
                     <li
                         onPointerEnter={() => { pointerHandler(categoryList.id); setClassSelctor(() => true) }}
                         className={props.class}
