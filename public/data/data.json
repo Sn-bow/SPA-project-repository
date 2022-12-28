@@ -1,0 +1,53 @@
+[
+	{
+		"id": 1,
+		"title": "BEST",
+		"content": [],
+		"underContent": [],
+		"url": []
+	},
+	{
+		"id": 2,
+		"title": "ALL ITEM",
+		"content": ["NEW", "BEST", "ALL"],
+		"underContent": ["아우터", "상의", "하의", "원피스", "ACC", "이너/언더웨어", "홈웨어/잠옷"],
+		"url": [
+			"https://spao.com/web/product/medium/202212/f8cbf3c31263ce71df7190f55bad42d0.jpg",
+			"https://m.spao.com/web/product/medium/202212/498619931630e645b61b43f381d69404.jpg",
+			"https://m.spao.com/web/product/medium/202212/e30f9552596c3bf5875e3d8d2464e419.jpg"
+		]
+	},
+	{
+		"id": 3,
+		"title": "WOMEN",
+		"content": ["NEW", "BEST", "ALL"],
+		"underContent": ["아우터", "상의", "하의", "원피스", "ACC", "이너/언더웨어", "홈웨어/잠옷"],
+		"url": [
+			"https://m.spao.com/web/product/medium/202212/c4b493b863c682cadb8ede27048a34fe.jpg",
+			"https://spao.com/web/product/medium/202212/f8cbf3c31263ce71df7190f55bad42d0.jpg",
+			"https://m.spao.com/web/product/medium/202212/6fdaf4eb450b5a6a43196fba949c6c0a.jpg"
+		]
+	},
+	{
+		"id": 4,
+		"title": "MEN",
+		"content": ["NEW", "BEST", "ALL"],
+		"underContent": ["아우터", "상의", "하의", "ACC", "이너/언더웨어", "홈웨어/잠옷"],
+		"url": [
+			"https://spao.com/web/product/medium/202212/f8cbf3c31263ce71df7190f55bad42d0.jpg",
+			"https://spao.com/web/product/medium/202212/f8cbf3c31263ce71df7190f55bad42d0.jpg",
+			"https://spao.com/web/product/medium/202212/f8cbf3c31263ce71df7190f55bad42d0.jpg"
+		]
+	},
+	{
+		"id": 5,
+		"title": "COLLABORATION",
+		"content": ["NEW", "BEST", "ALL"],
+		"underContent": ["잠옷", "상의", "잡화", "팬시/뷰티"],
+		"url": [
+			"https://spao.com/web/product/medium/202212/f8cbf3c31263ce71df7190f55bad42d0.jpg",
+			"https://spao.com/web/product/medium/202212/f8cbf3c31263ce71df7190f55bad42d0.jpg",
+			"https://spao.com/web/product/medium/202212/f8cbf3c31263ce71df7190f55bad42d0.jpg"
+		]
+	}
+]
