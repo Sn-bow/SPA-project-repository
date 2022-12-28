@@ -1,0 +1,17 @@
+[
+	{
+		"id": 1,
+		"name": "unisex",
+		"img": "https://www.spao.com/web/upload/custom_2716394483974526.gif"
+	},
+	{
+		"id": 2,
+		"name": "reorder",
+		"img": "https://www.spao.com/web/upload/custom_4116686491242842.png"
+	},
+	{
+		"id": 3,
+		"name": "soldout",
+		"img": "https://img.echosting.cafe24.com/design/skin/admin/ko_KR/ico_product_soldout.gif"
+	}
+]

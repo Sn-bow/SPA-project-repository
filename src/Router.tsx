@@ -2,8 +2,8 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Nav from './component/nav/Nav';
 import Main from './pages/main/Main';
 
-
 const Router = () => {
+
     return (
         <BrowserRouter>
             <Nav />
@@ -12,6 +12,7 @@ const Router = () => {
             </Routes>
         </BrowserRouter>
     );
+
 };
 
 export default Router;
