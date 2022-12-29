@@ -21,7 +21,7 @@ const NavUserContent = () => {
         <div className={classes.userContent}>
             <div className={classes.userBox}>
                 <div className={classes.userItemBox} onPointerEnter={pointerEnteredHandler} onPointerLeave={pointerLeavedHandler}>
-                    <Link to={''}>
+                    <Link to="/login">
                         <AiOutlineUser className={classes.userContentItem} onPointerEnter={pointerEnteredHandler} />
                     </Link>
                     {userPointerState && <UserDropdown pointEntered={pointerEnteredHandler} />}
